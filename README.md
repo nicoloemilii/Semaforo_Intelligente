@@ -1,4 +1,4 @@
-# Semaforo Intelligente
+# 🚦 Semaforo Intelligente
 
 ## 🧠 Descrizione del progetto
 Questo progetto ha lo scopo di realizzare un **semaforo intelligente** dotato di:
