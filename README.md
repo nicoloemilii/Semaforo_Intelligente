@@ -1,8 +1,5 @@
 # Semaforo Intelligente
 
-## 📅 Relazione N.1 del 23/10/2023  
-**Progettista:** Nicolò Emilii  
-
 ## 🧠 Descrizione del progetto
 Questo progetto ha lo scopo di realizzare un **semaforo intelligente** dotato di:
 
@@ -18,13 +15,13 @@ Il sistema è stato sviluppato su **Arduino UNO R3** e consente una gestione ava
 
 - **Modalità Giorno**: sequenza semaforica standard
 - **Modalità Notte**:
-  - Se **nessuna vettura** sulla strada secondaria → verde per via principale, rosso per via secondaria
-  - Se **vettura rilevata** sulla via secondaria → passa alla sequenza Giorno
+  - Se **nessuna vettura** transita sulla strada secondaria → verde per la via principale, rosso per la via secondaria
+  - Se **una vettura** viene rilevata sulla via secondaria → passa alla sequenza Giorno
 - **Prenotazione pedonale**:
   - Gestita con interrupt per non richiedere la pressione continua del pulsante
 - **Segnalazione acustica**:
   - Suoni lenti per i primi 4 secondi
-  - Suoni veloci per 1 secondo prima dello scatto al rosso
+  - Suoni veloci 1 secondo prima dello scatto al rosso
 
 ## 🧩 Componenti utilizzati
 
@@ -62,6 +59,10 @@ Il sistema è stato sviluppato su **Arduino UNO R3** e consente una gestione ava
 - Formula utilizzata:  
   **Spazio (cm) = 0,03431 × tempo (µs)**  
   (con velocità del suono a 343,1 m/s)
+
+## 👨‍💻 Autore
+
+Nicolò Emilii
 
 ---
 
