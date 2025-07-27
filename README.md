@@ -11,7 +11,7 @@ Questo progetto ha lo scopo di realizzare un **semaforo intelligente** dotato di
 
 Il sistema è stato sviluppato su **Arduino UNO R3** e consente una gestione avanzata del traffico simulato, migliorando la sicurezza dei pedoni e l'efficienza dei flussi stradali.
 
-## 🚦 Funzionalità principali
+## ⚙️ Funzionalità principali
 
 - **Modalità Giorno**: sequenza semaforica standard
 - **Modalità Notte**:
@@ -55,7 +55,7 @@ Il sistema è stato sviluppato su **Arduino UNO R3** e consente una gestione ava
 | TRIG     | 12          | Trigger sensore ultrasuoni |
 | ECHO     | 11          | Echo sensore ultrasuoni |
 
-## ⚙️ Calcolo distanza (ultrasuoni)
+## 🧮 Calcolo distanza (ultrasuoni)
 - Formula utilizzata:  
   **Spazio (cm) = 0,03431 × tempo (µs)**  
   (con velocità del suono a 343,1 m/s)
